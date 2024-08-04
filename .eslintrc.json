@@ -1,0 +1,35 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["import"],
+  "rules": {
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 1
+      }
+    ],
+    "import/no-unresolved": 2,
+    "import/newline-after-import": 2,
+    "import/first": 2,
+    "import/order": [
+      2,
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ]
+      }
+    ]
+  }
+}
