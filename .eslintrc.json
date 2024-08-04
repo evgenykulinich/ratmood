@@ -1,10 +1,6 @@
 {
-  "extends": [
-    "prettier"
-  ],
-  "plugins": [
-    "import"
-  ],
+  "extends": ["prettier"],
+  "plugins": ["import"],
   "rules": {
     "no-multiple-empty-lines": [
       2,
