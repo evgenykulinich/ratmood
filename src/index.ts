@@ -3,7 +3,7 @@ import { Bot } from 'grammy'
 
 dotenv.config()
 
-const botApiKey = process.env.TEST_BOT_API_KEY
+const botApiKey = process.env.BOT_API_KEY
 const bot = new Bot(botApiKey!)
 
 bot.command('start', async ctx => {
