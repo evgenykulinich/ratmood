@@ -1,4 +1,9 @@
 node_modules/
 .idea/
 
+src/commands/commands.md
+src/middlewares/middlewares.md
+src/services/services.md
+src/utils/utils.md
+
 .env
